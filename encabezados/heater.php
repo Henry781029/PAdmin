@@ -28,6 +28,11 @@
                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">noticias</a>
                     </li>
                 </ul>
+                <ul>
+                     <span class="navbar-text">
+                        muestre la seccion administrador????
+                    </span>
+                </ul>       
             </div>
         </div>
     </nav>
