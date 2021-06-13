@@ -16,10 +16,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="home.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Propietarios</a>
+                    <a class="nav-link" href="propietarios.php">Propietarios</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="#">Config</a>
@@ -28,9 +28,9 @@
                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">noticias</a>
                     </li>
                 </ul>
-                <ul>
-                     <span class="navbar-text">
-                        muestre la seccion administrador????
+                <ul class="navbar-nav">
+                     <span class="navbar-text d-flex">
+                     <a href="login.php">login</a>
                     </span>
                 </ul>       
             </div>
