@@ -2,7 +2,7 @@
 <?php include("encabezados/heater.php")?>
 
 
-
+<h1>INICIE SECCION</h1>
 
 
 
