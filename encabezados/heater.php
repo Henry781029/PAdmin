@@ -11,38 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4deb35a2e9.js" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="login.php">PAdmin</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="home.php">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="registro.php">Registro</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="propietarios.php">Propietarios</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Config</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">noticias</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                     <span class="navbar-text d-flex">
-                     <a href="login.php">login</a>
-                    </span>
-                </ul>       
-            </div>
-        </div>
-    </nav>
-
 </head>
+
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="login.php">PAdmin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.php">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="registro.php">Registro</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="propietarios.php">Propietarios</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Config</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">noticias</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <span class="navbar-text d-flex">
+                        <a href="login.php">login</a>
+                        </span>
+                    </ul>       
+                </div>
+            </div>
+    </nav>

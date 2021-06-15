@@ -7,7 +7,7 @@
 
     <div class="row">
 
-        <div class="col-md-10">
+        <div class="col-md-4 mx-auto">
 
                 <div class="card card-body">
                     <form action="agregarpropietario.php" method = "POST">
