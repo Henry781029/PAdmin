@@ -4,8 +4,11 @@
 <h1>REGISTRAR PROPIETARIO</h1>    
 
 <div class="container p-4">
+
     <div class="row">
+
         <div class="col-md-10">
+
                 <div class="card card-body">
                     <form action="agregarpropietario.php" method = "POST">
                         <div class="form-group">
@@ -40,15 +43,15 @@
 
                     <div class="alert alert-<?= $_SESSION['message_type'];?> alert-dismissible fade show" role="alert">
                     <?= $_SESSION['message'] ?>
-                    <button type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
-                    <span aria-hidden = "true">&times;</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                   
                     </button>
                     
                     </div>
 
                 <?php  session_unset(); } ?>           
 
-            </div>
+            
         </div>
 </div>
 
