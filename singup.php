@@ -1,7 +1,7 @@
-
 <?php include("encabezados/heater.php")?>
 <br>
-<h1>INICIE SECCION</h1>
+<h1>RESGISTRAR USUARIO</h1>
+
 
 <div class="container p-4">
 
@@ -22,27 +22,28 @@
                 <?php  session_unset(); } ?>  
 
                 <div class="card card-body">
-                    <form action="login.php" method = "POST">
+                    <form action="singup.php" method = "POST">
                         <div class="form-group">
-                            <input type="text" name = "usuario" class = "form-control" placeholder = "usuario" autofocus>
+                            <input type="text" name = "nombre" class = "form-control" placeholder = "nombre" autofocus>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" name = "apellido" class = "form-control" placeholder = "apellido" autofocus>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="text" name = "email" class = "form-control" placeholder = "email" autofocus>
                         </div>
                         <br>
                         <div class="form-group">
                             <input type="password" name = "password" class = "form-control" placeholder = "password" autofocus>
                         </div>
                         <br>
-                        <input type="submit" class = "btn btn-primary btn-block" name = "login" value = "Iniciar seccion" >
-                    </form>
-               </div> 
-               <div class="card card-body">
-                    <form action="singup.php" method = "POST">
-                        <p>En caso de NO iniciar seccion !REGISTRESE</p>
-                        <input type="submit" class = "btn btn-warning btn-block" name = "singup" value = "Registrar Usuario" >
+                        <input type="submit" class = "btn btn-primary btn-block" name = "singup" value = "Registrar Usuario" >
                     </form>
                </div> 
             
         </div>
 </div>
-
 
 <?php include("encabezados/footer.php")?>
