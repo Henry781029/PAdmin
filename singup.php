@@ -1,3 +1,32 @@
+<?php
+
+include ("Bdatos.php");
+
+if (isset($_POST['singup'])){
+
+   $nombre = $_POST['nombre'];
+   $apellido = $_POST['apellido'];
+   $email = $_POST['email'];
+   $password = $_POST['password'];
+
+   $query = "INSERT INTO registro(nombre, apellido, email, password) VALUES ('$nombre', '$apellido', '$email', '$password')";
+   $resultadousuario = mysqli_query($conexion, $query);
+   
+   if (!$resultadousuario) {
+
+        die("registro fallida");
+
+    }
+    
+    $_SESSION['message'] = 'Usuario guardado correctamente';
+    $_SESSION['message_type'] = 'warning';
+
+
+    header("Location:singup.php");
+
+}
+?>
+
 <?php include("encabezados/heater.php")?>
 <br>
 <h1>RESGISTRAR USUARIO</h1>
