@@ -9,6 +9,18 @@
 
         <div class="col-md-4 mx-auto">
 
+            
+                <?php if(isset($_SESSION['message'])) { ?>
+
+                    <div class="alert alert-<?= $_SESSION['message_type'];?> alert-dismissible fade show" role="alert">
+                    <?= $_SESSION['message'] ?>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                    </button>
+                    
+                    </div>
+
+                <?php  session_unset(); } ?>  
+
                 <div class="card card-body">
                     <form action="agregarpropietario.php" method = "POST">
                         <div class="form-group">
@@ -37,20 +49,7 @@
                         <br>
                         <input type="submit" class = "btn btn-warning btn-block" name = "agregarpropietario" value = "Guardar Propietario" >
                     </form>
-                </div> 
-
-                <?php if(isset($_SESSION['message'])) { ?>
-
-                    <div class="alert alert-<?= $_SESSION['message_type'];?> alert-dismissible fade show" role="alert">
-                    <?= $_SESSION['message'] ?>
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                   
-                    </button>
-                    
-                    </div>
-
-                <?php  session_unset(); } ?>           
-
+               </div> 
             
         </div>
 </div>

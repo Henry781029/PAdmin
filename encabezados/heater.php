@@ -33,12 +33,13 @@
                         <a class="nav-link" href="propietarios.php">Propietarios</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Config</a>
+                        <a class="nav-link" href="#">Configuracion</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">noticias</a>
                         </li>
                     </ul>
+                    <br>
                     <ul class="navbar-nav">
                         <span class="navbar-text d-flex">
                         <a href="login.php">login</a>
