@@ -1,5 +1,5 @@
 
-<?php include("encabezados/heater.php")?>
+<?php include("encabezados/heater_login.php")?>
 
 <h1>BIENVENIDOS</h1>   
 

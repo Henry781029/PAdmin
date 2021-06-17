@@ -27,7 +27,7 @@ if (isset($_POST['singup'])){
 }
 ?>
 
-<?php include("encabezados/heater.php")?>
+<?php include("encabezados/heater_login.php")?>
 <br>
 <h1>RESGISTRAR USUARIO</h1>
 
