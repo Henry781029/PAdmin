@@ -6,7 +6,7 @@ include "Bdatos.php";
 if(!empty($_POST['email']) && !empty($_POST['password'])) {
 
     $query = $conexion->prepare('SELECT id, email, password FROM registro WHERE email=:email');
-    $query->binparem(':email', $_POST['email']);
+    $query->bindParam(':email', $_POST['email']);
     $query->execute();
     $resultadologin = $query->fetch(PDO::FETCH_ASSOC);
 

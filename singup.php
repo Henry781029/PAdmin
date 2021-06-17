@@ -22,7 +22,7 @@ if (isset($_POST['singup'])){
     $_SESSION['message_type'] = 'warning';
 
 
-    header("Location:singup.php");
+    header("Location:login.php");
 
 }
 ?>
