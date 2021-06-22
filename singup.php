@@ -10,28 +10,20 @@ if (isset($_POST['singup'])){
    $password = $_POST['password'];
 
    $query = "INSERT INTO registro(nombre, apellido, email, password) VALUES ('$nombre', '$apellido', '$email', '$password')";
-   $query2 = $conexion->prepare($query);
-   $cifrado_password = password_hash($_POST['password'], PASSWORD_BCRYPT);
-   $query2->bindParam($nombre, $_POST['nombre']);
-   $query2->bindParam($apellido, $_POST['apellido']);
-   $query2->bindParam($email, $_POST['email']);
-   $query2->bindParam($password, $cifrado_password);
-
-
    $resultadousuario = mysqli_query($conexion, $query);
    
    if (!$resultadousuario) {
 
         die("registro fallida");
 
+    }else{
+
+        $_SESSION['message'] = 'Usuario guardado correctamente';
+        $_SESSION['message_type'] = 'warning';
+
     }
     
-    $_SESSION['message'] = 'Usuario guardado correctamente';
-    $_SESSION['message_type'] = 'warning';
-
-
     header("Location:login.php");
-
 }
 ?>
 
