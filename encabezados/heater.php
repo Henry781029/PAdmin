@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="login.php">PAdmin</a>
+                <a class="navbar-brand" href="#">PAdmin</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -40,11 +40,13 @@
                         </li>
                     </ul>
                     <br>
+
                     <ul class="navbar-nav">
                         <span class="navbar-text d-flex">
-                        <a href="login.php">login</a>
+                        <a href="#">Usuario logueado</a>
                         </span>
-                    </ul>       
+                    </ul>    
+
                 </div>
             </div>
     </nav>

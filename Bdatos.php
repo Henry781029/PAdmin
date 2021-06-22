@@ -11,12 +11,10 @@ $conexion = mysqli_connect(
 
 );
 
-
 if(isset($conexion)){
 
-echo "base de daos c0nectada";
+echo "base de datos conectada";
 
 }
-
 
 ?>

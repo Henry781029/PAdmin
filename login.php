@@ -27,7 +27,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])) {
 
 <?php include("encabezados/heater_login.php")?>
 <br>
-<h1>INICIE SECCION</h1>
+<h1>INICIAR SECCION</h1>
 
 <div class="container p-4">
 
@@ -35,36 +35,32 @@ if(!empty($_POST['email']) && !empty($_POST['password'])) {
 
         <div class="col-md-4 mx-auto">
 
-                <div class="card card-body">
+             <div class="card card-body">
 
-                    <?php
+                 <?php
 
-                        if(!empty($message)):  ?>
+                     if(!empty($message)):  ?>
 
-                        <p><?=$message?></p>
+                     <p><?=$message?></p>
 
-                    <?php endif; ?>
+                 <?php endif; ?>
 
 
+                 <form action="login.php" method = "POST">
 
-                    <form action="login.php" method = "POST">
-                        <div class="form-group">
-                            <input type="text" name = "email" class = "form-control" placeholder = "email" autofocus>
-                        </div>
-                        <br>
-                        <div class="form-group">
-                            <input type="password" name = "password" class = "form-control" placeholder = "password" autofocus>
-                        </div>
-                        <br>
-                        <input type="submit" class = "btn btn-primary btn-block" name = "login" value = "Iniciar seccion" >
-                    </form>
-               </div> 
-               <div class="card card-body">
-                    <form action="singup.php" method = "POST">
-                        <p>En caso de NO iniciar seccion !REGISTRESE</p>
-                        <input type="submit" class = "btn btn-warning btn-block" name = "singup" value = "Registrar Usuario" >
-                    </form>
-               </div> 
+                    <div class="form-group">
+                        <input type="text" name = "email" class = "form-control" placeholder = "email" autofocus>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <input type="password" name = "password" class = "form-control" placeholder = "password" autofocus>
+                    </div>
+                    <br>
+                    <input type="submit" class = "btn btn-primary btn-block" name = "login" value = "Iniciar seccion">
+
+                 </form>
+
+             </div> 
             
         </div>
 </div>
