@@ -43,7 +43,7 @@
 
                     <ul class="navbar-nav">
                         <span class="navbar-text d-flex">
-                        <a href="#">Usuario logueado</a>
+                        <a href="logout.php">Cerrar sección</a>
                         </span>
                     </ul>    
 
