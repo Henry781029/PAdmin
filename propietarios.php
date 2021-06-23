@@ -1,6 +1,16 @@
 
-<?php include("Bdatos.php")?>
+<?php 
+
+include("Bdatos.php");
+
+
+$email = $_SESSION['email'];
+
+
+?>
+
 <?php include("encabezados/heater.php")?>
+<?php echo 'Bienvenid@-----' .$email; ?>
 <br>
 <br>
 <h1>PROPIETARIOS</h1>

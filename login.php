@@ -1,15 +1,4 @@
 
-<?php 
-
-include "Bdatos.php";
-
-$email = $_POST['email'];
-$password = $_POST['password'];
-
-
-
-?>
-
 <?php include("encabezados/heater_login.php")?>
 <br>
 <h1>INICIAR SECCION</h1>
@@ -20,26 +9,26 @@ $password = $_POST['password'];
 
         <div class="col-md-4 mx-auto">
 
-             <div class="card card-body">
+            <div class="card card-body">
 
-                 <form action="login.php" method = "POST">
+                <form action="valida_login.php" method="POST">
 
                     <div class="form-group">
-                        <input type="text" name = "email" class = "form-control" placeholder = "email" autofocus>
+                        <input type="text" name="email" class="form-control" placeholder="email" autofocus>
                     </div>
                     <br>
                     <div class="form-group">
-                        <input type="password" name = "password" class = "form-control" placeholder = "password" autofocus>
+                        <input type="password" name="password" class="form-control" placeholder="password" autofocus>
                     </div>
                     <br>
-                    <input type="submit" class = "btn btn-primary btn-block" name = "login" value = "Iniciar seccion">
+                    <input type="submit" class="btn btn-primary btn-block" name="login" value="Iniciar seccion">
 
-                 </form>
+                </form>
 
-             </div> 
-            
+            </div>
+
         </div>
-</div>
+    </div>
 
 
-<?php include("encabezados/footer.php")?>
+    <?php include("encabezados/footer.php")?>
