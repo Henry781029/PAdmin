@@ -1,7 +1,7 @@
 
 <?php include("encabezados/heater_login.php")?>
 <br>
-<h1>INICIAR SECCION</h1>
+<h1>INICIAR SESION</h1>
 
 <div class="container p-4">
 
@@ -21,7 +21,7 @@
                         <input type="password" name="password" class="form-control" placeholder="password" autofocus>
                     </div>
                     <br>
-                    <input type="submit" class="btn btn-primary btn-block" name="login" value="Iniciar seccion">
+                    <input type="submit" class="btn btn-primary btn-block" name="login" value="Iniciar Sesion">
 
                 </form>
 
