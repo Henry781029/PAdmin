@@ -25,7 +25,7 @@ if (isset($_POST['agregarpropietario'])){
     $_SESSION['message_type'] = 'success';
 
 
-    header("Location:registro.php");
+    header("Location:propietarios.php");
 
 }
 ?>

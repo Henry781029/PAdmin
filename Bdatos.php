@@ -10,11 +10,11 @@ $conexion = mysqli_connect(
     'padmin'
 
 );
-
+/*
 if(isset($conexion)){
 
 echo "base de datos conectada";
 
 }
-
+*/
 ?>

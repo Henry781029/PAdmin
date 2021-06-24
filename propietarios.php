@@ -60,6 +60,10 @@ $email = $_SESSION['email'];
                                 <a href="borrarpropietario.php?id=<?php echo $row['id']?>" class="btn btn-danger">
                                 <i class="fas fa-trash-alt"></i>
                                 </a>
+                                <a href="realizar_factura.php" class="btn btn-primary">
+                                <i class="fas fa-file-invoice-dollar"></i>
+                                </a>
+
                             
                             </td>
                         

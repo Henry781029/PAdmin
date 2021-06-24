@@ -23,6 +23,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
+                    
                         <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="home.php">Inicio</a>
                         </li>
@@ -35,9 +36,7 @@
                         <li class="nav-item">
                         <a class="nav-link" href="#">Configuracion</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Informes</a>
-                        </li>
+
                     </ul>
                     <br>
 
