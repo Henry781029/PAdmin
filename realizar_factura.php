@@ -28,7 +28,7 @@
     }
 
 
-$cliente = "Luis Cabrera Benito";
+$cliente = "XXXXXXXXXXXXXXX";
 $remitente = "Edificio php";
 $web = "https://localhost/PAdmin";
 $mensajePie = "Gracias por su pronto pago";
